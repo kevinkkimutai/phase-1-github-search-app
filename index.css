@@ -10,4 +10,15 @@
 
 ul {
   list-style: none;
+  text-align: center;
+  
+}
+img {
+  border-radius: 50%;
+}
+.main{
+  border-radius: 2px solid black;
+}
+a {
+  font-size: 25px;
 }
