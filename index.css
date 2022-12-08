@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 #github-container {
@@ -11,14 +12,66 @@
 ul {
   list-style: none;
   text-align: center;
+
   
 }
 img {
-  border-radius: 50%;
+  border-radius: 10%;
+  width: 70%;
 }
 .main{
   border-radius: 2px solid black;
 }
 a {
   font-size: 25px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+ color: aliceblue;
+  height: 250px;
+  padding-top: 5px;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+ 
+}
+.row {
+  border-radius: 50%;
+}
+li{
+  border-radius: 20px;
+  width: auto;
+  color: azure;
+  padding: 2px;
+  
+}
+#user-list li{
+  background-color: black;
+  border-radius: 50px;
+  border: 2px solid white;
+ 
+}
+#repos-list {
+  background-color: rgb(223, 204, 241);
+  border-radius: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align:left;
+}
+h3 {
+  text-align: center;
+}
+h2{
+  font-style: italic;
+  cursor: pointer;
+}
+a {
+  color: blue;
 }
